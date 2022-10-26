@@ -3,10 +3,20 @@
 
 OPENCORE 0.8.5 EFI using I9 10900KF and RX 6900 XT XTHX Variant (0x73af)
 
+![nfo](http://image.noelshack.com/fichiers/2022/43/3/1666809042-nfo.png)
 ![nfo](http://image.noelshack.com/fichiers/2022/43/3/1666796113-nfo.png)
 
-**Latest working macOS**: Monterey 12.6 (21G115) 
+**Latest working macOS**: Ventura 13.0
+
 **Current OpenCore**: 0.8.5
+
+RX 6900 XT : 
+```
+The XTXH variant (Device ID: 0x73AF) is supported with WhateverGreen 1.5.2 and spoofing device-id to 0x73BF.
+```
+See [documentation](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#navi-21-series)
+
+
 ## Complete hardware specs
 
 -   Intel i9 10900k
@@ -16,7 +26,7 @@ OPENCORE 0.8.5 EFI using I9 10900KF and RX 6900 XT XTHX Variant (0x73af)
 
 ## What works
 
--   macOS Monterey
+-   macOS Monterey 12.6, macOS Ventura 13.0
 -   WiFi (using [itlwm](https://github.com/OpenIntelWireless/itlwm) + [heliport](https://github.com/OpenIntelWireless/HeliPort))
 -   Audio
 -   HDMI/DP
@@ -26,6 +36,8 @@ OPENCORE 0.8.5 EFI using I9 10900KF and RX 6900 XT XTHX Variant (0x73af)
 -   Temperature monitoring for everything except GPU (no GPU temp support in VirtualSMC for navi and big navi cards)
 -   DRM content (Netflix, ATV+, Airplay 2 mirroring etc)
 -   Shutdown/Reboot
+-   Deep Sleep
+
 ## What doesn't work
 
 -   (oob) WiFi and Bluetooth + Airdrop + Sidecar.. 
@@ -39,6 +51,7 @@ OPENCORE 0.8.5 EFI using I9 10900KF and RX 6900 XT XTHX Variant (0x73af)
 -   USBInjectAll.kext
 -   VirtualSMC.kext
 -   WhateverGreen.kext
+-   *Other Kext needed for my config (and residuals)*
 
 ## SSDT used:
 
@@ -49,8 +62,7 @@ OPENCORE 0.8.5 EFI using I9 10900KF and RX 6900 XT XTHX Variant (0x73af)
 
 ⚠️ Dont forget to change SMBIOS data (using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) or any other tool) ⚠️
 
-Open /EFI/OC/ACPI/**SSDT-GPU-SPOOF.aml** with [MaciASL].
-(https://github.com/acidanthera/MaciASL)
+Open /EFI/OC/ACPI/**SSDT-GPU-SPOOF.aml** with [MaciASL](https://github.com/acidanthera/MaciASL).
 
 Edit this part : 
 
@@ -109,4 +121,4 @@ See [documentation](https://dortania.github.io/Getting-Started-With-ACPI/Univers
 ## Thanks/Credits
 
 -   [Opencore Team](https://dortania.github.io/getting-started/)
-- [luchina-gabriel](https://github.com/luchina-gabriel) for README idea
+- [luchina-gabriel](https://github.com/luchina-gabriel) for README shape
