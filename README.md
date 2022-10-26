@@ -3,7 +3,7 @@
 
 OPENCORE 0.8.5 EFI using I9 10900KF and RX 6900 XT XTHX Variant (0x73af)
 
-![enter image description here](https://i.ibb.co/ydrhNFn/nfo.png)
+![nfo](http://image.noelshack.com/fichiers/2022/43/3/1666796113-nfo.png)
 
 **Latest working macOS**: Monterey 12.6 (21G115) 
 **Current OpenCore**: 0.8.5
