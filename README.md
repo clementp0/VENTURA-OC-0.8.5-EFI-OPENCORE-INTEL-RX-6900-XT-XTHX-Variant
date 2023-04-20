@@ -236,4 +236,5 @@ See [documentation](https://dortania.github.io/Getting-Started-With-ACPI/Univers
 
 - [Opencore Team](https://dortania.github.io/getting-started/)
 
-- [luchina-gabriel](https://github.com/luchina-gabriel) for README shape
+### Disclaimer 
+*Some residual SSTD or Kext may be present but not used (the same EFI is used on different hardware configurations)*
