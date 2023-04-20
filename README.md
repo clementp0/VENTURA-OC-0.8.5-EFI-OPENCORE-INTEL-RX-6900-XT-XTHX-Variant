@@ -44,7 +44,7 @@ See [documentation](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-
 
 - AMD Radeon AORUS RX 6900 XT MASTER 16G (0x73af)
 
-- 16GB RAM Corsair Dominator Platinum - 3400 MHz DDR4
+- 32GB RAM Corsair Dominator Platinum - 3400 MHz DDR4
 
   
 
