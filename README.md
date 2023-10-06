@@ -1,11 +1,8 @@
 
   
+ 
 
-# EFI-OPENCORE-I9-10900KF-RX-6900-XT-XTHX-Variant
-
-  
-
-OPENCORE 0.8.5 EFI using I9 10900KF and RX 6900 XT XTHX Variant (0x73af)
+# OPENCORE 0.8.5 EFI using I9 10900KF and RX 6900 XT XTHX Variant (0x73af)
 
   
 
