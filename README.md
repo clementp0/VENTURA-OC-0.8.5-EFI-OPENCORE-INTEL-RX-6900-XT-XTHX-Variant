@@ -4,11 +4,9 @@
 
 # OPENCORE 0.8.5 EFI using I9 10900KF and RX 6900 XT XTHX Variant (0x73af) - Ventura
 
-  
-
-![nfo](https://cdn.discordapp.com/attachments/489413377676804147/1089880320540672120/I9.png)
-
-  
+<p align="center">
+  <img src="https://github.com/clementp0/VENTURA-OC-0.8.5-EFI-OPENCORE-INTEL-RX-6900-XT-XTHX-Variant/assets/15802129/1d8a8bd0-d32f-4ea7-97d8-78b1a3993628">
+</p>
 
 **Latest working macOS**: Ventura 13.0
 
